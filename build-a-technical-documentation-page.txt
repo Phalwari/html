@@ -1,0 +1,212 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar on the left side -->
+  <nav id="navbar">
+    <header>JavaScript Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction_to_JavaScript">Introduction to JavaScript</a></li>
+      <li><a class="nav-link" href="#Variables_in_JavaScript">Variables in JavaScript</a></li>
+      <li><a class="nav-link" href="#Functions_in_JavaScript">Functions in JavaScript</a></li>
+      <li><a class="nav-link" href="#Loops_in_JavaScript">Loops in JavaScript</a></li>
+      <li><a class="nav-link" href="#Objects_in_JavaScript">Objects in JavaScript</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Documentation Section -->
+  <main id="main-doc">
+    
+    <!-- Section 1: Introduction to JavaScript -->
+    <section class="main-section" id="Introduction_to_JavaScript">
+      <header>Introduction to JavaScript</header>
+      <p>JavaScript is a versatile programming language that runs in the browser and on servers. It allows you to create dynamic web pages and applications.</p>
+      <p>JavaScript was initially created to "make webpages alive". Programs in this language are called scripts, and they can be written right in the HTML of a webpage.</p>
+      <code>console.log("Hello, JavaScript!");</code>
+      <p>This is a simple log statement in JavaScript.</p>
+      <ul>
+        <li>Dynamic behavior in websites</li>
+        <li>Supports event-driven programming</li>
+        <li>Interpreted language</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: Variables in JavaScript -->
+    <section class="main-section" id="Variables_in_JavaScript">
+      <header>Variables in JavaScript</header>
+      <p>Variables in JavaScript store data values. You can declare variables using <code>let</code>, <code>const</code>, or <code>var</code>.</p>
+      <p>Examples:</p>
+      <code>let age = 30;</code>
+      <code>const name = "John";</code>
+      <p>The difference between <code>var</code>, <code>let</code>, and <code>const</code> lies in scoping rules and whether reassignment is allowed.</p>
+      <ul>
+        <li><code>var</code> has function scope</li>
+        <li><code>let</code> has block scope</li>
+        <li><code>const</code> is used for constants</li>
+      </ul>
+    </section>
+
+    <!-- Section 3: Functions in JavaScript -->
+    <section class="main-section" id="Functions_in_JavaScript">
+      <header>Functions in JavaScript</header>
+      <p>Functions in JavaScript are blocks of code designed to perform a particular task. They are executed when something invokes them (calls them).</p>
+      <code>function greet() { console.log("Hello, World!"); }</code>
+      <p>Functions can be declared or expressed as anonymous functions.</p>
+      <p>For example:</p>
+      <code>let sum = function(a, b) { return a + b; }</code>
+      <ul>
+        <li>Functions allow code reuse</li>
+        <li>They can take arguments and return values</li>
+        <li>JavaScript supports anonymous and arrow functions</li>
+      </ul>
+    </section>
+
+    <!-- Section 4: Loops in JavaScript -->
+    <section class="main-section" id="Loops_in_JavaScript">
+      <header>Loops in JavaScript</header>
+      <p>Loops are used to repeatedly execute a block of code as long as a specified condition is true.</p>
+      <p>The most common types of loops in JavaScript are <code>for</code>, <code>while</code>, and <code>do-while</code>.</p>
+      <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+      <ul>
+        <li><code>for</code> loop is used when you know the number of iterations</li>
+        <li><code>while</code> loop runs as long as a condition is true</li>
+        <li><code>do-while</code> loop runs at least once</li>
+      </ul>
+    </section>
+
+    <!-- Section 5: Objects in JavaScript -->
+    <section class="main-section" id="Objects_in_JavaScript">
+      <header>Objects in JavaScript</header>
+      <p>Objects are collections of key-value pairs in JavaScript, and they are used to store complex data structures.</p>
+      <p>Here is an example of an object:</p>
+      <code>let person = { name: "John", age: 30, isStudent: false };</code>
+      <ul>
+        <li>Objects can contain functions, known as methods</li>
+        <li>They can store various data types, including arrays</li>
+        <li>Objects are an essential part of JavaScript programming</li>
+      </ul>
+    </section>
+    
+  </main>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Navbar styling */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#navbar header {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar li {
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+#main-doc {
+  margin-left: 270px;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+header {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+code {
+  display: block;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-left: 4px solid #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
+** end of undefined **
+
