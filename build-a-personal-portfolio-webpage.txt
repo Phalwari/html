@@ -1,0 +1,193 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umer Javed's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Welcome Section -->
+  <section id="welcome-section">
+    <h1>Welcome to Umer Javed's Portfolio</h1>
+    <p>A showcase of my projects and skills.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-tile">
+      <a href="https://github.com/your-github-link" target="_blank">Project 1: Inventory Management System</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://github.com/your-github-link" target="_blank">Project 2: Python Web Scraper</a>
+    </div>
+    <div class="project-tile">
+      <a href="https://github.com/your-github-link" target="_blank">Project 3: Flask App</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me for any collaborations or inquiries!</p>
+    <a id="profile-link" href="https://github.com/your-github-link" target="_blank">GitHub Profile</a>
+  </section>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+/* Welcome Section Styles */
+#welcome-section {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+#welcome-section h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+#welcome-section p {
+  font-size: 1.5em;
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 50px 20px;
+  background-color: #eee;
+}
+
+#projects h2 {
+  margin-bottom: 20px;
+}
+
+.project-tile {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.project-tile a:hover {
+  color: #007BFF;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#profile-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#profile-link:hover {
+  background-color: #555;
+}
+
+/* Media Query for Smaller Devices */
+@media (max-width: 768px) {
+  #navbar ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .project-tile {
+    width: 100%;
+  }
+
+  #welcome-section h1 {
+    font-size: 2.5em;
+  }
+}
+
+
+** end of undefined **
+
